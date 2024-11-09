@@ -1,0 +1,115 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: hsl(30, 54%, 90%);
+  font-family: Outfit, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p, .text{
+  color: hsl(30, 10%, 34%);
+}
+span{
+  color: hsl(24, 5%, 18%);
+  font-weight: 600;
+}
+h1, h2{
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+li::marker{
+  font-size: 16px;
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+.preparation-details li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.main-container{
+  background-color: hsl(0, 0%, 100%);
+
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 17px;*/  
+
+  width: 80%;
+  max-width: 700px;
+  height: auto;
+  padding: 37px 37px;
+  border-radius: 23px;
+  margin: 80px auto;
+  font-size: 16px;
+}
+
+.simple-omlette-image-box{
+  width: 100%;
+  margin-bottom: 4.5%;
+}
+.simple-omlette-image{
+  width: 100%;
+  border-radius: 10px;
+}
+h1{
+  color: black;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.preparation-details{
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding: 30px 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.preparation-heading{
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 3%;
+  font-weight: 700;
+}
+
+li{
+  margin: 15px;
+  margin-left: 20px;
+}
+
+h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.nutrients-table{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.nutrient{
+  display: flex;
+  width: 100%;
+  text-align: left;
+}
+.nutrient-name{
+  flex: 1;
+  margin-left: 40px;
+}
+.calorie-grams{
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  flex: 1;
+  margin-left: 40px;
+}
+
+.nutrients-table hr{
+  margin: 15px;
+}
