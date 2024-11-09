@@ -1,0 +1,117 @@
+.delete-button{
+  background-color: rgba(255, 0, 0, 0.767);
+  color: white;
+
+  font-family: Arial, Helvetica, sans-serif ;
+  font-size: 17px;
+  font-weight: bold;
+
+  border: none;
+
+  height: 40px;
+  width: 90px;
+
+  margin-bottom: 100px;
+
+  border-radius: 10px;
+
+  transition: background-color 0.15s;
+}
+
+.delete-button:hover{
+  background-color: rgb(214, 49, 49);
+}
+
+.delete-button:active{
+  background-color: rgba(255, 0, 0, 0.404);
+}
+
+.main-outline{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  height: 470px;
+  width: 400px;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0px;
+
+  padding-top: 50px;  
+  box-shadow: 1px 10px 20px rgb(177, 173, 173);
+}
+
+.heading{
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: bold;
+
+  padding-bottom: 15px;
+}
+
+.sub-heading{
+  font-family: Arial;
+  font-size: 14px;
+  color: rgb(143, 137, 137);
+}
+
+.details{
+  margin-top: 40px;
+}
+
+.email,
+.username,
+.password{
+  height: 40px;
+  width: 300px;
+
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(168, 167, 167);
+
+  font-size: 16px;
+
+  padding-left: 15px;
+
+  margin-top: 20px;
+}
+
+
+.buttons{
+  margin-top: 35px;
+}
+
+.Join-In{
+  height: 50px;
+  width: 130px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #8f8e8e;
+
+  background-color: #8f8e8e;
+
+  transition: background-color 0.15s, border-color 0.15s, opacity 0.15s, cursor 0.15s;
+}
+.Join-In:Hover{
+  background-color: #6e6e6e;
+  border-color: #6e6e6e;
+  cursor: pointer;
+}
+.Join-In:active{
+  opacity: 0.7;
+}
+
+.sign-in-link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+  margin-top: 25px;
+}
